@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43F63FC7527E8BFF3A1239C3 /* Pods_HairMate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F39DD33910BD7792425FEFC /* Pods_HairMate.framework */; };
+		5C4115C9224115AB002C6D3C /* HairDesignViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4115C8224115AB002C6D3C /* HairDesignViewController.swift */; };
+		5C4115CB22411961002C6D3C /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4115CA22411961002C6D3C /* CardView.swift */; };
+		5C4115CD22421F0F002C6D3C /* CustomLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4115CC22421F0F002C6D3C /* CustomLayout.swift */; };
+		5C4115D122422FC4002C6D3C /* SwipeSubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4115D022422FC4002C6D3C /* SwipeSubView.swift */; };
+		5CA704AF2237BF69003DB0DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA704AE2237BF69003DB0DC /* AppDelegate.swift */; };
+		5CA704B42237BF69003DB0DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CA704B22237BF69003DB0DC /* Main.storyboard */; };
+		5CA704B62237BF6A003DB0DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CA704B52237BF6A003DB0DC /* Assets.xcassets */; };
+		5CA704B92237BF6A003DB0DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CA704B72237BF6A003DB0DC /* LaunchScreen.storyboard */; };
+		5CA704C12237BFC8003DB0DC /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA704C02237BFC8003DB0DC /* MainViewController.swift */; };
+		5CA704C32237C00E003DB0DC /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA704C22237C00E003DB0DC /* MapViewController.swift */; };
+		5CA704C52237C08D003DB0DC /* ChangeHairViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA704C42237C08D003DB0DC /* ChangeHairViewController.swift */; };
+		5CA704C72237C13A003DB0DC /* StickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA704C62237C13A003DB0DC /* StickerView.swift */; };
+		5CA704C92237C190003DB0DC /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA704C82237C190003DB0DC /* UserViewController.swift */; };
+		5CA704CB2237C1C9003DB0DC /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA704CA2237C1C9003DB0DC /* MessageViewController.swift */; };
+		5CCD2115223E14B800EF3AC6 /* FaceShapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCD2114223E14B800EF3AC6 /* FaceShapViewController.swift */; };
+		5CD486582251F9E100D5E4AA /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 5CD486572251F9E100D5E4AA /* Podfile */; };
+		5CD4865A22522B9F00D5E4AA /* AppointmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD4865922522B9F00D5E4AA /* AppointmentViewController.swift */; };
+		5CE4D58D2238EA49001EEEAE /* CycleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE4D58C2238EA49001EEEAE /* CycleView.swift */; };
+		5CE4D58F223911C6001EEEAE /* myTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE4D58E223911C6001EEEAE /* myTableViewCell.swift */; };
+		5CEA104F2258993F00619909 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEA104E2258993F00619909 /* LoginViewController.swift */; };
+		5CEA105122589EE600619909 /* RegistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEA105022589EE600619909 /* RegistViewController.swift */; };
+		5CEA10792258C0E400619909 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEA10782258C0E400619909 /* SettingsViewController.swift */; };
+		5CEA107B2258C11100619909 /* FeedbackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEA107A2258C11100619909 /* FeedbackViewController.swift */; };
+		5CEA107D2258D4C500619909 /* CyclicCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEA107C2258D4C500619909 /* CyclicCardCell.swift */; };
+		5CEA10802258D50300619909 /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEA107F2258D50300619909 /* Header.swift */; };
+		5CEA10822258D53E00619909 /* View(Extension).swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEA10812258D53E00619909 /* View(Extension).swift */; };
+		5CEA10842258D58E00619909 /* CyclicCardFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEA10832258D58E00619909 /* CyclicCardFlowLayout.swift */; };
+		5CEA10862258DEB700619909 /* CommunityViewCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEA10852258DEB700619909 /* CommunityViewCard.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		187D1EF908B0E5F647FC5698 /* Pods-HairMate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HairMate.release.xcconfig"; path = "Pods/Target Support Files/Pods-HairMate/Pods-HairMate.release.xcconfig"; sourceTree = "<group>"; };
+		1F39DD33910BD7792425FEFC /* Pods_HairMate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HairMate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C4115C8224115AB002C6D3C /* HairDesignViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HairDesignViewController.swift; sourceTree = "<group>"; };
+		5C4115CA22411961002C6D3C /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		5C4115CC22421F0F002C6D3C /* CustomLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLayout.swift; sourceTree = "<group>"; };
+		5C4115D022422FC4002C6D3C /* SwipeSubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeSubView.swift; sourceTree = "<group>"; };
+		5CA704AB2237BF69003DB0DC /* HairMate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HairMate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CA704AE2237BF69003DB0DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5CA704B32237BF69003DB0DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5CA704B52237BF6A003DB0DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5CA704B82237BF6A003DB0DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5CA704BA2237BF6A003DB0DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CA704C02237BFC8003DB0DC /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		5CA704C22237C00E003DB0DC /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		5CA704C42237C08D003DB0DC /* ChangeHairViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeHairViewController.swift; sourceTree = "<group>"; };
+		5CA704C62237C13A003DB0DC /* StickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickerView.swift; sourceTree = "<group>"; };
+		5CA704C82237C190003DB0DC /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		5CA704CA2237C1C9003DB0DC /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		5CCD2114223E14B800EF3AC6 /* FaceShapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceShapViewController.swift; sourceTree = "<group>"; };
+		5CD486572251F9E100D5E4AA /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		5CD4865922522B9F00D5E4AA /* AppointmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentViewController.swift; sourceTree = "<group>"; };
+		5CE4D58C2238EA49001EEEAE /* CycleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CycleView.swift; sourceTree = "<group>"; };
+		5CE4D58E223911C6001EEEAE /* myTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myTableViewCell.swift; sourceTree = "<group>"; };
+		5CEA104E2258993F00619909 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		5CEA105022589EE600619909 /* RegistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistViewController.swift; sourceTree = "<group>"; };
+		5CEA10782258C0E400619909 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		5CEA107A2258C11100619909 /* FeedbackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackViewController.swift; sourceTree = "<group>"; };
+		5CEA107C2258D4C500619909 /* CyclicCardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CyclicCardCell.swift; sourceTree = "<group>"; };
+		5CEA107F2258D50300619909 /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
+		5CEA10812258D53E00619909 /* View(Extension).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View(Extension).swift"; sourceTree = "<group>"; };
+		5CEA10832258D58E00619909 /* CyclicCardFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CyclicCardFlowLayout.swift; sourceTree = "<group>"; };
+		5CEA10852258DEB700619909 /* CommunityViewCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityViewCard.swift; sourceTree = "<group>"; };
+		ED90047D47E70B135D36F8B7 /* Pods-HairMate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HairMate.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HairMate/Pods-HairMate.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5CA704A82237BF69003DB0DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43F63FC7527E8BFF3A1239C3 /* Pods_HairMate.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4FE18B2C483A5F5FF8C6944F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ED90047D47E70B135D36F8B7 /* Pods-HairMate.debug.xcconfig */,
+				187D1EF908B0E5F647FC5698 /* Pods-HairMate.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5C4115C6223F84D4002C6D3C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5CE4D58C2238EA49001EEEAE /* CycleView.swift */,
+				5CE4D58E223911C6001EEEAE /* myTableViewCell.swift */,
+				5C4115CC22421F0F002C6D3C /* CustomLayout.swift */,
+				5C4115CA22411961002C6D3C /* CardView.swift */,
+				5CEA10852258DEB700619909 /* CommunityViewCard.swift */,
+				5C4115D022422FC4002C6D3C /* SwipeSubView.swift */,
+				5CEA107C2258D4C500619909 /* CyclicCardCell.swift */,
+				5CEA10832258D58E00619909 /* CyclicCardFlowLayout.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		5C4115C722410B4B002C6D3C /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				5CA704B52237BF6A003DB0DC /* Assets.xcassets */,
+				5CA704B22237BF69003DB0DC /* Main.storyboard */,
+				5CA704B72237BF6A003DB0DC /* LaunchScreen.storyboard */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		5CA704A22237BF69003DB0DC = {
+			isa = PBXGroup;
+			children = (
+				5CEA107E2258D4EB00619909 /* Tool */,
+				5CD486572251F9E100D5E4AA /* Podfile */,
+				5CA704D22237C4A7003DB0DC /* FrameWork */,
+				5CA704AD2237BF69003DB0DC /* HairMate */,
+				5CA704AC2237BF69003DB0DC /* Products */,
+				4FE18B2C483A5F5FF8C6944F /* Pods */,
+				DEA826C6AB0867DEC2FCD409 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5CA704AC2237BF69003DB0DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CA704AB2237BF69003DB0DC /* HairMate.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5CA704AD2237BF69003DB0DC /* HairMate */ = {
+			isa = PBXGroup;
+			children = (
+				5CA704BA2237BF6A003DB0DC /* Info.plist */,
+				5CA704AE2237BF69003DB0DC /* AppDelegate.swift */,
+				5C4115C722410B4B002C6D3C /* Source */,
+				5C4115C6223F84D4002C6D3C /* View */,
+				5CA704D12237C47B003DB0DC /* Message */,
+				5CA704D02237C450003DB0DC /* User */,
+				5CA704CC2237C42E003DB0DC /* Main */,
+			);
+			path = HairMate;
+			sourceTree = "<group>";
+		};
+		5CA704CC2237C42E003DB0DC /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				5CA704C02237BFC8003DB0DC /* MainViewController.swift */,
+				5CA704C42237C08D003DB0DC /* ChangeHairViewController.swift */,
+				5CA704C22237C00E003DB0DC /* MapViewController.swift */,
+				5CCD2114223E14B800EF3AC6 /* FaceShapViewController.swift */,
+				5C4115C8224115AB002C6D3C /* HairDesignViewController.swift */,
+				5CD4865922522B9F00D5E4AA /* AppointmentViewController.swift */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		5CA704D02237C450003DB0DC /* User */ = {
+			isa = PBXGroup;
+			children = (
+				5CA704C82237C190003DB0DC /* UserViewController.swift */,
+				5CEA104E2258993F00619909 /* LoginViewController.swift */,
+				5CEA105022589EE600619909 /* RegistViewController.swift */,
+				5CEA10782258C0E400619909 /* SettingsViewController.swift */,
+				5CEA107A2258C11100619909 /* FeedbackViewController.swift */,
+			);
+			name = User;
+			sourceTree = "<group>";
+		};
+		5CA704D12237C47B003DB0DC /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				5CA704CA2237C1C9003DB0DC /* MessageViewController.swift */,
+			);
+			name = Message;
+			sourceTree = "<group>";
+		};
+		5CA704D22237C4A7003DB0DC /* FrameWork */ = {
+			isa = PBXGroup;
+			children = (
+				5CA704C62237C13A003DB0DC /* StickerView.swift */,
+			);
+			path = FrameWork;
+			sourceTree = "<group>";
+		};
+		5CEA107E2258D4EB00619909 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				5CEA107F2258D50300619909 /* Header.swift */,
+				5CEA10812258D53E00619909 /* View(Extension).swift */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		DEA826C6AB0867DEC2FCD409 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F39DD33910BD7792425FEFC /* Pods_HairMate.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5CA704AA2237BF69003DB0DC /* HairMate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CA704BD2237BF6A003DB0DC /* Build configuration list for PBXNativeTarget "HairMate" */;
+			buildPhases = (
+				149A10C436D4923594CDE516 /* [CP] Check Pods Manifest.lock */,
+				5CA704A72237BF69003DB0DC /* Sources */,
+				5CA704A82237BF69003DB0DC /* Frameworks */,
+				5CA704A92237BF69003DB0DC /* Resources */,
+				7AD0E5777C7BBA8B9BEB35F4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HairMate;
+			productName = HairMate;
+			productReference = 5CA704AB2237BF69003DB0DC /* HairMate.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5CA704A32237BF69003DB0DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "1317-hym";
+				TargetAttributes = {
+					5CA704AA2237BF69003DB0DC = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 0;
+							};
+							com.apple.Keychain = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 5CA704A62237BF69003DB0DC /* Build configuration list for PBXProject "HairMate" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5CA704A22237BF69003DB0DC;
+			productRefGroup = 5CA704AC2237BF69003DB0DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5CA704AA2237BF69003DB0DC /* HairMate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5CA704A92237BF69003DB0DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CA704B92237BF6A003DB0DC /* LaunchScreen.storyboard in Resources */,
+				5CA704B62237BF6A003DB0DC /* Assets.xcassets in Resources */,
+				5CD486582251F9E100D5E4AA /* Podfile in Resources */,
+				5CA704B42237BF69003DB0DC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		149A10C436D4923594CDE516 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HairMate-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7AD0E5777C7BBA8B9BEB35F4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HairMate/Pods-HairMate-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HairMate/Pods-HairMate-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5CA704A72237BF69003DB0DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CEA107D2258D4C500619909 /* CyclicCardCell.swift in Sources */,
+				5CA704C72237C13A003DB0DC /* StickerView.swift in Sources */,
+				5CA704C92237C190003DB0DC /* UserViewController.swift in Sources */,
+				5CA704AF2237BF69003DB0DC /* AppDelegate.swift in Sources */,
+				5CEA107B2258C11100619909 /* FeedbackViewController.swift in Sources */,
+				5CD4865A22522B9F00D5E4AA /* AppointmentViewController.swift in Sources */,
+				5C4115D122422FC4002C6D3C /* SwipeSubView.swift in Sources */,
+				5CEA10822258D53E00619909 /* View(Extension).swift in Sources */,
+				5CA704C32237C00E003DB0DC /* MapViewController.swift in Sources */,
+				5CA704C52237C08D003DB0DC /* ChangeHairViewController.swift in Sources */,
+				5C4115C9224115AB002C6D3C /* HairDesignViewController.swift in Sources */,
+				5CEA10802258D50300619909 /* Header.swift in Sources */,
+				5CEA10862258DEB700619909 /* CommunityViewCard.swift in Sources */,
+				5CE4D58F223911C6001EEEAE /* myTableViewCell.swift in Sources */,
+				5CE4D58D2238EA49001EEEAE /* CycleView.swift in Sources */,
+				5CCD2115223E14B800EF3AC6 /* FaceShapViewController.swift in Sources */,
+				5C4115CB22411961002C6D3C /* CardView.swift in Sources */,
+				5CEA105122589EE600619909 /* RegistViewController.swift in Sources */,
+				5CEA104F2258993F00619909 /* LoginViewController.swift in Sources */,
+				5CA704C12237BFC8003DB0DC /* MainViewController.swift in Sources */,
+				5C4115CD22421F0F002C6D3C /* CustomLayout.swift in Sources */,
+				5CA704CB2237C1C9003DB0DC /* MessageViewController.swift in Sources */,
+				5CEA10792258C0E400619909 /* SettingsViewController.swift in Sources */,
+				5CEA10842258D58E00619909 /* CyclicCardFlowLayout.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5CA704B22237BF69003DB0DC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CA704B32237BF69003DB0DC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5CA704B72237BF6A003DB0DC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CA704B82237BF6A003DB0DC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5CA704BB2237BF6A003DB0DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5CA704BC2237BF6A003DB0DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5CA704BE2237BF6A003DB0DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED90047D47E70B135D36F8B7 /* Pods-HairMate.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D9342F4LUV;
+				INFOPLIST_FILE = HairMate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hym.HairMate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5CA704BF2237BF6A003DB0DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 187D1EF908B0E5F647FC5698 /* Pods-HairMate.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D9342F4LUV;
+				INFOPLIST_FILE = HairMate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hym.HairMate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5CA704A62237BF69003DB0DC /* Build configuration list for PBXProject "HairMate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CA704BB2237BF6A003DB0DC /* Debug */,
+				5CA704BC2237BF6A003DB0DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CA704BD2237BF6A003DB0DC /* Build configuration list for PBXNativeTarget "HairMate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CA704BE2237BF6A003DB0DC /* Debug */,
+				5CA704BF2237BF6A003DB0DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5CA704A32237BF69003DB0DC /* Project object */;
+}
