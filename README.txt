@@ -1,5 +1,8 @@
 # HairMate
 
+##Demo
+![Demo picture](https://raw.githubusercontent.com/SilverDancer5/HairMate/master/test.gif)
+
 
 
 ## ÒÀÀµ¿ò¼Ü
